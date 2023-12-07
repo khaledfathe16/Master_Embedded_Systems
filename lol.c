@@ -1,13 +1,22 @@
 #include <stdio.h>
 
-#include <string.h>
 
-int main()
-{
-	
-
-	 
-
-	return 0;
+int main() {
+  
+  
+  int x , y;
+  
+  x = 5;
+  
+  y = 6;
+  
+  (x>y)?printf("X is the greater variable"):("y is the greater variable");
+  
+  
+  
+    return 0;
 }
 
+
+
+	
