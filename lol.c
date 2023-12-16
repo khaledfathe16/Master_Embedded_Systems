@@ -2,20 +2,13 @@
 
 int main() {
 
-int i = 0;
+int a;
 
-switch(i)
-{
-	
-	case 0: i+=2;
-	case 1: i=0;
-	default: i += 10;
-}
+a = 1,2,3; //Operator
 
-printf("%d" , i);
+a = (1,2,3); //Separator
 
+printf("%d",a);
 
-
-return 0;
 }
 
