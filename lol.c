@@ -1,10 +1,14 @@
 #include <stdio.h>
 
+int main() {
 
+int a;
 
-int main(void)
-{
-	
-	
-  return 0;	
+a = 1,2,3; //Operator
+
+a = (1,2,3); //Separator
+
+printf("%d",a);
+
 }
+
